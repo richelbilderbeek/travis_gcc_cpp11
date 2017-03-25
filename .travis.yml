@@ -2,5 +2,5 @@ language: cpp
 compiler: gcc
 
 script: 
-  - g++ main.cpp -o travis_gcc_cpp11
+  - g++ main.cpp -std=c++11 -o travis_gcc_cpp11
   - ./travis_gcc_cpp11
